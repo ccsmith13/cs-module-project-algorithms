@@ -15,7 +15,9 @@ else n >= 3:
 def eating_cookies(n):
     # Your code here
     counter = 0
-    if n == 0: 
+    if n is None: 
+        return 
+    elif n == 0: 
         return 1
     elif n == 1: 
         return 1
